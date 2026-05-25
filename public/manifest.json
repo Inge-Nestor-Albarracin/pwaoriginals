@@ -1,25 +1,27 @@
-
-
 {
-"name":"Cronocofee",
-"short_name": "Crono",
-"description": "Esta app es un cronometro para cafe",
-"start_url": "/",
-"display": "standalone",
-"background_color": "#0a84ff",
-"theme_color": "#0a84ff",
-"icons": [
-{
-"src": "https://cdn-icons-png.flaticon.com/512/6744/6744480.png",
-"sizes": "192x192",
-"type": "image/png",
-"purpose": "any"
-},
-{
-"src": "https://cdn-icons-png.flaticon.com/512/6744/6744480.png",
-"sizes": "512x512",
-"type": "image/png",
-"purpose": "maskable"
-}
-]
+  "name": "Cronocoffee",
+  "short_name": "Crono",
+  "description": "Cronómetro para preparación de café",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#18181b",
+  "theme_color": "#92400e",
+  "categories": ["food", "productivity", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }
